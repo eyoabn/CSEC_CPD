@@ -1,0 +1,15 @@
+x =input()
+y =list(input())
+z=0
+a=0
+for i in y:
+    if i == "A":
+        z += 1
+    elif i == "D":
+        a += 1
+if z > a:
+    print("Anton")
+elif a>z:
+    print("Danik")
+else:
+    print("Friendship")
