@@ -1,0 +1,14 @@
+x = input()
+y=x.upper()
+z=x.lower()
+a=""
+b=""
+for i in x:
+    if i not in z:
+        a += i
+    if i not in y:
+        b += i
+if len(a) > len(b):
+    print(y)
+else:
+    print(z)
