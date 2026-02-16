@@ -1,0 +1,11 @@
+x = input()
+y = input()
+z= x.upper()
+a= y.upper()
+
+if z > a:
+    print(1)
+elif z < a:
+    print(-1)
+else:
+    print(0)
