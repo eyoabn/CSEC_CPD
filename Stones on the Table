@@ -1,0 +1,9 @@
+x= int(input())
+z=x-1
+y=input()
+c=0
+
+for i in range(z):
+    if y[i]==y[i+1]:
+        c += 1
+print(c)
