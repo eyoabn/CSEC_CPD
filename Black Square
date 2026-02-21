@@ -1,0 +1,9 @@
+x = list(map(int,input().split()))
+y = input()
+a=0
+z=[]
+for i in y:
+    z += i
+for j in z:
+    a += x[int(j)]
+print(a)
